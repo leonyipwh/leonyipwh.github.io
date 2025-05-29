@@ -15,7 +15,7 @@ export const SITE = {
 
 export const ME = {
     name: "Leon Yip",
-    profession: "Full Stack Developer",
+    profession: "Full Stack Engineer",
     profileImage: "pp2.png",
     profileFacts: [
         {
@@ -36,7 +36,7 @@ export const ME = {
         linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
         resumeDoc: "resume.pdf",
     },
-    aboutMe: "I am a Senior Engineer with over 10 years of application development experience in several industries. With exposure to frontend/backend/devops which allowed me to attain a strong foundation of technical and management skills. I am confident that I can be a great addition to your team. Lets connect and discuss how I can contribute to your success.",
+    aboutMe: "I am a Full Stack Engineer with over 10 years of application development experience in several industries. With exposure to frontend/backend/devops which allowed me to attain a strong foundation of technical and management skills. Lets connect and discuss how I can contribute to your success.",
 }
 
 export const SOCIALS = [
