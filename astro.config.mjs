@@ -14,7 +14,6 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
     outDir: './docs',
     site: 'https://leonyipwh.github.io',
-    base: 'docs',
     integrations: [mdx(), react(), tailwind({
         applyBaseStyles: false,
     }), icon(), sitemap()],
