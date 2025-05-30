@@ -9,6 +9,7 @@
     "name": "Leon Yip"
   },
   "homepage": "https://leonyipwh.github.io",
+  "packageManager": "pnpm@10.0.0",
   "keywords": [
     "portfolio",
     "Astro",
