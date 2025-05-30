@@ -50,7 +50,7 @@ main {
     }
 }
 
-.prose img {
+.prose img, lite-vimeo {
     @apply rounded-2xl;
 }
 
