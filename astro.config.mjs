@@ -13,7 +13,8 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
     outDir: './docs',
-    site: 'https://simple-portfolio.vicbox.dev/',
+    site: 'https://leonyipwh.github.io',
+    base: 'docs',
     integrations: [mdx(), react(), tailwind({
         applyBaseStyles: false,
     }), icon(), sitemap()],
