@@ -12,7 +12,6 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-    outDir: './docs',
     site: 'https://leonyipwh.github.io',
     integrations: [mdx(), react(), tailwind({
         applyBaseStyles: false,
