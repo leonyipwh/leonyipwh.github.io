@@ -7,7 +7,7 @@ interface Project {
     id: string;
     data: {
         title: string;
-        summary: string;
+        summary?: string;
         tags: string[];
         cover: ImageMetadata;
         startDate: Date;
@@ -32,6 +32,7 @@ const allProjects = (await getCollection('projects'))
                 allProjects.map((project: Project) => (
                         <ProjectCardList
                                 id={project.id}
+                                summary={project.data.summary}
                                 title={project.data.title}
                                 tags={project.data.tags}
                                 cover={project.data.cover}
