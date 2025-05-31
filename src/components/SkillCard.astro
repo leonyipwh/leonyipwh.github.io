@@ -6,14 +6,12 @@ interface SkillCardProps {
     icon: string;
     name: string;
     description: string;
-    showDescription?: boolean;
 }
 
 const {
     icon,
     name,
     description,
-    showDescription = true,
 } = Astro.props as SkillCardProps;
 
 ---
@@ -24,6 +22,6 @@ const {
     </div>
     <h3 class="text-lg font-bold">{name}</h3>
     {
-        showDescription && <p class="text-n700 dark:text-n200">{description}</p>
+        description && <p class="text-n700 dark:text-n200">{description}</p>
     }
 </div>
