@@ -23,7 +23,7 @@ export const ME = {
             description: "Years of Experience"
         },
         {
-            value: '♾️',
+            value: '∞',
             description: "Completed Projects"
         },
         {
