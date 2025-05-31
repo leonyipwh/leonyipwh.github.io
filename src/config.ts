@@ -36,7 +36,7 @@ export const ME = {
         linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
         resumeDoc: "resume.pdf",
     },
-    aboutMe: "I am a Full Stack Engineer with over 10 years of application development experience in several industries. With exposure to frontend/backend/devops which allowed me to attain a strong foundation of technical and management skills. Lets connect and discuss how I can contribute to your success.",
+    aboutMe: "I am a Full Stack Engineer with over 10 years of application development experience. With exposure to different roles and industries which allowed me to attain a strong foundation of technical and management skills. Lets connect and discuss how I can contribute to your success.",
 }
 
 export const SOCIALS = [
