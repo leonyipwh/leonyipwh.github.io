@@ -16,7 +16,8 @@ const softSkills: SoftSkill[] = [
         icon: "cert"
     },
     {
-        name: "Summer School of Solana",
+        name: "Ackee Blockchain Security",
+        description: "Summer School of Solana",
         icon: "cert"
     },
     {
@@ -31,7 +32,7 @@ const softSkills: SoftSkill[] = [
     },
     {
         name: "INMA Global Media",
-        description: "Best Use Of Mobile (1st Place)",
+        description: "Best Use Of Mobile (1<sup>st</sup> Place)",
         icon: "award-fill"
     },
     {
