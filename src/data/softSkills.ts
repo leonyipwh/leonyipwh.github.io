@@ -6,13 +6,18 @@ interface SoftSkill {
 
 const softSkills: SoftSkill[] = [
     {
-        name: "Azure Certification",
-        description: "AZ-900",
+        name: "Azure AI engineer",
+        description: "Microsoft Certified: AI-102",
         icon: "cert"
     },
     {
-        name: "Azure Certification",
-        description: "DP-900",
+        name: "Azure Data Fundamentals",
+        description: "Microsoft Certified: DP-900",
+        icon: "cert"
+    },
+    {
+        name: "Azure Fundamentals",
+        description: "Microsoft Certified: AZ-900",
         icon: "cert"
     },
     {
